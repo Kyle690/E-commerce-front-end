@@ -1,0 +1,161 @@
+#carousel-1 {
+  max-height:400px;
+}
+
+#logo {
+  max-height:80px;
+  max-width:70px;
+}
+
+#logoLarge {
+  max-width:150px;
+  max-height:150px;
+  padding-top:5px;
+}
+
+.cart {
+  font-size:20px;
+  color:rgb(81,103,159);
+  margin-top:-3px;
+  margin-left:3px;
+}
+
+.thumbnail {
+  max-height:200px;
+  max-width:200px;
+}
+
+.special_sections {
+  font-family:'Amarante';
+}
+
+.contact_form {
+  position:relative;
+  box-shadow:5px 5px 10px rgb(85,85,85);
+  padding:10px;
+  border:1px;
+}
+
+.product_feature {
+  max-width:200px;
+  max-height:200px;
+}
+
+@media (min-width: 576px) {
+  #join_news {
+    font-size:150px;
+    padding-top:5px;
+  }
+}
+
+.delivery {
+  background-image:url(pexels-photo-243108.jpeg);
+}
+
+@media (min-width: 300px) {
+  #join_news {
+    font-size:40px;
+  }
+}
+
+.category {
+  font-family:'Aguafina Script';
+  font-weight:200;
+  font-size:70px;
+}
+
+.parallax {
+  background-image:url(../../assets/img/main_img.jpg);
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.products {
+  background-color:rgba(0,148,255,0.05);
+}
+
+.col.product {
+  padding-top:10%;
+}
+
+@media (min-width: 300px) {
+  .col .newsletter {
+    padding-top:0px;
+  }
+}
+
+.newsletter {
+  background-image:url(../../assets/img/pexels-photo-616404.jpeg);
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.jumbotron.contact_us {
+  background:linear-gradient(rgba(0,0,0,0.28), rgba(0,0,0,0.53)), url(../../assets/img/contact_us.jpg);
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  height:400px;
+}
+
+.contact_paragrapgh {
+  padding-left:100px;
+  padding-right:100px;
+  padding-top:10px;
+}
+
+@media (min-width: 300px) {
+  .contact_paragrapgh {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+  }
+}
+
+.product_bg {
+  background-image:url(../../assets/img/pexels-photo-326279.jpeg);
+  background-attachment:fixed;
+  background-size:cover;
+}
+
+@media (min-width: 992px) {
+  .product_row {
+    margin:70px;
+  }
+}
+
+.traders_bg {
+  background:linear-gradient(rgba(0,0,0,0.49), rgba(0,0,0,0.24)),url(../../assets/img/trader_bg.jpg);
+  background-attachment:fixed;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.about_us_bg {
+  background-image:url(../../assets/img/DSC_0105.jpg);
+  background-attachment:fixed;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.c-portal {
+  background-image:url(../../assets/img/login_bg.jpg);
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+}
+
+.cart_thumbnail {
+  max-width:40px;
+  max-height:40px;
+}
+
+.cart_summary_img {
+  max-width:30px;
+  max-height:30px;
+}
+
+.delivery {
+  background-color:white;
+}
+

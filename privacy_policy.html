@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanita Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aguafina+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Akronim">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alex+Brush">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allura">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amarante">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sirin+Stencil">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Stardos+Stencil">
+    <link rel="stylesheet" href="assets/css/Carousel-Hero-1.css">
+    <link rel="stylesheet" href="assets/css/Carousel-Hero-2.css">
+    <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/iframe.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="assets/css/MUSA_carousel-product-cart-slider.css">
+    <link rel="stylesheet" href="assets/css/Paralax-Hero-Banner.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Testimonials.css">
+</head>
+
+<body>
+    <div class="modal fade" role="dialog" tabindex="-1" id="cart">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">SHOPPING CART</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <form action="cart_checkout.html" method="post">
+                        <div class="table-responsive" id="cart_table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Item Name</th>
+                                        <th></th>
+                                        <th>Variant</th>
+                                        <th>Qty</th>
+                                        <th>Price</th>
+                                        <th>Totals</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody class="cart_table_body">
+                                    <tr>
+                                        <td class="text-center"><img src="assets/img/cheese-ravioli-0308-med103553_sq.jpg" class="cart_thumbnail"></td>
+                                        <td>Beef Lasange</td>
+                                        <td>450g (micorwave</td>
+                                        <td>4</td>
+                                        <td>R 38,00</td>
+                                        <td>R 152,00</td>
+                                        <td><button class="btn btn-danger btn-sm remove_cart_item" type="button"><i class="fa fa-close"></i></button></td>
+                                    </tr>
+                                    <tr></tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="5" class="text-right">Subtotal</td>
+                                        <td id="cart_subtotal">R 152</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </form>
+                    <p class="text-muted text-right">Shipping and taxes will be calculateed at checkout.</p>
+                </div>
+                <div class="modal-footer">
+                    <div><button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="submit" id="checkOutBtn">Proceed to checkout</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="order_update">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Get an Update on your order</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <h6 class="text-muted">Simply enter your order no below and see how where your order is.</h6>
+                    <form method="post"><input class="form-control form-control" type="text"></form>
+                </div>
+                <div class="modal-footer"><button class="btn btn-primary" type="button" name="order_status">Submit</button><button class="btn btn-light" type="button" data-dismiss="modal">Close</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="d-none d-md-block" style="background-color:#ffffff;">
+        <div class="row">
+            <div class="col text-center"><a href="index.html"><img src="assets/img/Vanita Logo.png" id="logoLarge"></a></div>
+        </div>
+    </div>
+    <nav class="navbar navbar-light navbar-expand-md sticky-top bg-white" style="background-color:#319941;">
+        <div class="container"><a class="navbar-brand" href="#"><img src="assets/img/Vanita Logo.png" id="logo" class="d-md-none d-lg-none d-xl-none" alt="logo"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav mx-auto" style="color:rgb(139,160,200);">
+                    <li class="nav-item" role="presentation"><a class="nav-link text-uppercase active" href="categories.html">Products</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-uppercase active" href="traders.html">Traders</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-uppercase active" href="about_us.html">About Us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-uppercase active" href="contact_us.html">Contact Us</a></li>
+                    <li class="dropdown nav-item active"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">MY ACCOUNT</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="customer_login.html">Login</a><a class="dropdown-item" role="presentation" href="customer_register.html">Register</a></div>
+                    </li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-uppercase active" href="#" id="cart_btn">Cart<i class="fa fa-shopping-cart cart"></i></a></li>
+                </ul><span class="navbar-text cart"></span></div>
+        </div>
+    </nav>
+    <div class="c-portal">
+        <div class="container">
+            <div class="row" style="padding-top:20px;padding-bottom:20px;">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Vanita Pasta Privacy Policy</h4>
+                            <p class="card-text"><br>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from www.creativeplatform.co.za (the “Site”).<br>PERSONAL INFORMATION WE COLLECT<br>When you visit
+                                the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. Additionally, as
+                                you browse the Site, we collect information about the individual web pages or products that you view, what websites or search terms referred you to the Site, and information about how you interact with the Site. We refer
+                                to this automatically-collected information as “Device Information.”<br>We collect Device Information using the following technologies:<br> - “Cookies” are data files that are placed on your device or computer and often
+                                include an anonymous unique identifier. For more information about cookies, and how to disable cookies, visit http://www.allaboutcookies.org.<br> - “Log files” track actions occurring on the Site, and collect data including
+                                your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.<br> - “Web beacons,” “tags,” and “pixels” are electronic files used to record information about how you browse the Site.<br>                                [[INSERT DESCRIPTIONS OF OTHER TYPES OF TRACKING TECHNOLOGIES USED]]<br>Additionally when you make a purchase or attempt to make a purchase through the Site, we collect certain information from you, including your name,
+                                billing address, shipping address, payment information (including credit card numbers [[INSERT ANY OTHER PAYMENT TYPES ACCEPTED]]), email address, and phone number. We refer to this information as “Order Information.”<br>[[INSERT
+                                ANY OTHER INFORMATION YOU COLLECT: OFFLINE DATA, PURCHASED MARKETING DATA/LISTS]]<br>When we talk about “Personal Information” in this Privacy Policy, we are talking both about Device Information and Order Information.<br>HOW
+                                DO WE USE YOUR PERSONAL INFORMATION?<br>We use the Order Information that we collect generally to fulfill any orders placed through the Site (including processing your payment information, arranging for shipping, and providing
+                                you with invoices and/or order confirmations). Additionally, we use this Order Information to:<br>Communicate with you;<br>Screen our orders for potential risk or fraud; and<br>When in line with the preferences you have
+                                shared with us, provide you with information or advertising relating to our products or services.<br>[[INSERT OTHER USES OF ORDER INFORMATION]]<br>We use the Device Information that we collect to help us screen for potential
+                                risk and fraud (in particular, your IP address), and more generally to improve and optimize our Site (for example, by generating analytics about how our customers browse and interact with the Site, and to assess the success
+                                of our marketing and advertising campaigns).<br>[[INSERT OTHER USES OF DEVICE INFORMATION, INCLUDING: ADVERTISING/RETARGETING]]<br>SHARING YOUR PERSONAL INFORMATION<br>We share your Personal Information with third parties
+                                to help us use your Personal Information, as described above. For example, we use Shopify to power our online store--you can read more about how Shopify uses your Personal Information here: https://www.shopify.com/legal/privacy.
+                                We also use Google Analytics to help us understand how our customers use the Site--you can read more about how Google uses your Personal Information here: https://www.google.com/intl/en/policies/privacy/. You can also opt-out
+                                of Google Analytics here: https://tools.google.com/dlpage/gaoptout.<br>Finally, we may also share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other
+                                lawful request for information we receive, or to otherwise protect our rights.<br>[[INCLUDE IF USING REMARKETING OR TARGETED ADVERTISING]]<br>BEHAVIOURAL ADVERTISING<br>As described above, we use your Personal Information
+                                to provide you with targeted advertisements or marketing communications we believe may be of interest to you. For more information about how targeted advertising works, you can visit the Network Advertising Initiative’s
+                                (“NAI”) educational page at http://www.networkadvertising.org/understanding-online-advertising/how-does-it-work.<br>You can opt out of targeted advertising by:<br>[[<br> INCLUDE OPT-OUT LINKS FROM WHICHEVER SERVICES BEING
+                                USED.<br> COMMON LINKS INCLUDE:<br> FACEBOOK - https://www.facebook.com/settings/?tab=ads<br> GOOGLE - https://www.google.com/settings/ads/anonymous<br> BING - https://advertise.bingads.microsoft.com/en-us/resources/policies/personalized-ads<br>]]<br>Additionally,
+                                you can opt out of some of these services by visiting the Digital Advertising Alliance’s opt-out portal at: http://optout.aboutads.info/.<br>DO NOT TRACK<br>Please note that we do not alter our Site’s data collection and
+                                use practices when we see a Do Not Track signal from your browser.<br>[[INCLUDE IF LOCATED IN OR IF STORE HAS CUSTOMERS IN EUROPE]]<br>YOUR RIGHTS<br>If you are a European resident, you have the right to access personal
+                                information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the contact information below.<br>Additionally,
+                                if you are a European resident we note that we are processing your information in order to fulfill contracts we might have with you (for example if you make an order through the Site), or otherwise to pursue our legitimate
+                                business interests listed above. Additionally, please note that your information will be transferred outside of Europe, including to Canada and the United States.<br>DATA RETENTION<br>When you place an order through the
+                                Site, we will maintain your Order Information for our records unless and until you ask us to delete this information.<br>[[INSERT IF AGE RESTRICTION IS REQUIRED]]<br>MINORS<br>The Site is not intended for individuals under
+                                the age of [[INSERT AGE]].<br>CHANGES<br>We may update this privacy policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal or regulatory reasons.<br>CONTACT US<br>For
+                                more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at djmwinter@gmail.com or by mail using the details provided below:<br> 101 Racecourse
+                                View, Brand Street, Benoni, GP, 1501, South Africa<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row text-white">
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 text-white">
+                <h5>INFORMATION</h5>
+                <ul class="list-unstyled">
+                    <li style="margin-top:10px;"><a href="privacy_policy.html" class="text-white">Privacy Terms</a></li>
+                    <li style="margin-top:10px;"><a href="Terms_of_use.html" class="text-white" style="padding-top:0px;">Terms of use</a></li>
+                    <li style="margin-top:10px;"><a href="shipping_terms.html" class="text-white">Shipping</a></li>
+                    <li style="margin-top:10px;"><a href="returns.html" class="text-white">Returns</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 text-white">
+                <h5>ACCOUNT</h5>
+                <ul class="list-unstyled">
+                    <li style="margin-top:10px;"><a href="customer_details.html" class="text-white" style="margin-top:0px;">Profile</a></li>
+                    <li style="margin-top:10px;"><a href="customer_account.html" class="text-white">Account</a></li>
+                    <li style="margin-top:10px;"><a href="#" id="order_update_btn" class="text-white">Track My Order</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 text-white">
+                <h5>COMPANY</h5><p>
+    5 Main Reef Rd,<br> 
+    Boksburg North, <br>
+    Gauteng,<br>
+    South Africa</p><h5>CONTACT</h5>
+<p>
+    <span><i class='fa fa-envelope'></i> info@vanitapasta.co.za</span><br>
+    <span><i class='fa fa-phone'></i> +27 (011) 025 8033</span>
+</p></div>
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <h5>GET SOCIAL</h5>
+                <div><a href="#" style="background-color:rgba(255,255,255,0);"><i class="typcn typcn-social-facebook-circular" style="color:rgb(255,255,255);font-size:40px;"></i></a><a href="#" style="background-color:rgba(255,255,255,0);"><i class="typcn typcn-social-instagram" style="color:rgb(255,255,255);font-size:40px;"></i></a>
+                    <a
+                        href="#" style="background-color:rgba(255,255,255,0);"><i class="typcn typcn-social-google-plus-circular" style="color:rgb(255,255,255);font-size:40px;"></i></a><a href="#" style="background-color:rgba(255,255,255,0);"><i class="typcn typcn-social-youtube" style="color:rgb(255,255,255);font-size:40px;"></i></a></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center"><span><i class="fa fa-copyright"></i>Vanita Pasta 2018</span></div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/cart_func.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="assets/js/Paralax-Hero-Banner.js"></script>
+    <script src="assets/js/store.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,548 @@
+2018-07-11 04:26:10 : PayFast ITN call received
+2018-07-11 04:26:10 : Get posted data
+2018-07-11 04:26:10 : PayFast Data: Array
+(
+    [m_payment_id] => 212
+    [pf_payment_id] => 638687
+    [payment_status] => COMPLETE
+    [item_name] => Vanita Pasta Online Store order Number: 212
+    [item_description] => Vanita Pasta order number: 212
+    [amount_gross] => 44.95
+    [amount_fee] => -2.30
+    [amount_net] => 42.65
+    [custom_str1] => c0d0849ee7ed294d15b844261a178602583ce51f1f8e9f240863bad8f769b3f4
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email_address] => djmwinter@gmail.com
+    [merchant_id] => 10008609
+    [signature] => 46b693bbe7c32fd807a306ee6c866d6c
+)
+
+2018-07-11 04:26:10 : Verify security signature
+2018-07-11 04:26:10 : Signature = valid
+2018-07-11 04:26:10 : created_Signature = 4bf5fb09e01cd0b09d25da14ff235e82
+2018-07-11 04:26:10 : Check order status and update the order
+2018-07-11 04:26:10 : - Complete
+2018-07-11 04:26:10 : Data Test array: Array
+(
+    [merchant_id] => 10008609
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email] => djmwinter@gmail.com
+    [m_payment_id] => 212
+)
+
+2018-07-11 04:26:10 : sent signature: c0d0849ee7ed294d15b844261a178602583ce51f1f8e9f240863bad8f769b3f4
+2018-07-11 04:26:10 : created signature: c0d0849ee7ed294d15b844261a178602583ce51f1f8e9f240863bad8f769b3f4
+2018-07-11 04:26:10 : Custom Secruity Check:
+2018-07-11 04:26:10 : Passed
+2018-07-11 04:26:10 : payment Status update: true
+2018-07-12 19:40:31 : PayFast ITN call received
+2018-07-12 19:40:31 : Get posted data
+2018-07-12 19:40:31 : PayFast Data: Array
+(
+    [m_payment_id] => 215
+    [pf_payment_id] => 639714
+    [payment_status] => COMPLETE
+    [item_name] => Vanita Pasta Online Store order Number: 215
+    [item_description] => Vanita Pasta order number: 215
+    [amount_gross] => 130.00
+    [amount_fee] => -2.99
+    [amount_net] => 127.01
+    [custom_str1] => 1397c1020a5b72a83f9f1019ee0498c234fe44fd43f4affce190d3cfef3eb4b9
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email_address] => djmwinter@gmail.com
+    [merchant_id] => 10008609
+    [signature] => 66ed491e54f314f8d549f8dce21ea544
+)
+
+2018-07-12 19:40:31 : Verify security signature
+2018-07-12 19:40:31 : Signature = valid
+2018-07-12 19:40:31 : created_Signature = adae6a73f50fb793b9b8028b05047042
+2018-07-12 19:40:31 : Check order status and update the order
+2018-07-12 19:40:31 : - Complete
+2018-07-12 19:40:31 : Data Test array: Array
+(
+    [merchant_id] => 10008609
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email] => djmwinter@gmail.com
+    [m_payment_id] => 215
+)
+
+2018-07-12 19:40:31 : sent signature: 1397c1020a5b72a83f9f1019ee0498c234fe44fd43f4affce190d3cfef3eb4b9
+2018-07-12 19:40:31 : created signature: 1397c1020a5b72a83f9f1019ee0498c234fe44fd43f4affce190d3cfef3eb4b9
+2018-07-12 19:40:31 : Custom Secruity Check:
+2018-07-12 19:40:31 : Passed
+2018-07-12 19:40:31 : payment Status update: true
+2018-07-12 19:40:31 : Client Email response: Your email has been sent, thank you!
+2018-07-12 19:40:31 : Admin Email response:Your admin email has been sent, thank you!
+2018-07-12 19:58:37 : PayFast ITN call received
+2018-07-12 19:58:37 : Get posted data
+2018-07-12 19:58:37 : PayFast Data: Array
+(
+    [m_payment_id] => 216
+    [pf_payment_id] => 639721
+    [payment_status] => COMPLETE
+    [item_name] => Vanita Pasta Online Store order Number: 216
+    [item_description] => Vanita Pasta order number: 216
+    [amount_gross] => 55.00
+    [amount_fee] => -2.30
+    [amount_net] => 52.70
+    [custom_str1] => 4b111807321dae258ec11b9c5b705ec7a2cea2f12d60acbc1b5a14e2a951d822
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email_address] => djmwinter@gmail.com
+    [merchant_id] => 10008609
+    [signature] => 22bcc2a8c27451f998566983a34c9e82
+)
+
+2018-07-12 19:58:37 : Verify security signature
+2018-07-12 19:58:37 : Signature = valid
+2018-07-12 19:58:37 : created_Signature = a5656929327096ff56f89bb37f0614bf
+2018-07-12 19:58:37 : Check order status and update the order
+2018-07-12 19:58:37 : - Complete
+2018-07-12 19:58:37 : Data Test array: Array
+(
+    [merchant_id] => 10008609
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email] => djmwinter@gmail.com
+    [m_payment_id] => 216
+)
+
+2018-07-12 19:58:37 : sent signature: 4b111807321dae258ec11b9c5b705ec7a2cea2f12d60acbc1b5a14e2a951d822
+2018-07-12 19:58:37 : created signature: 4b111807321dae258ec11b9c5b705ec7a2cea2f12d60acbc1b5a14e2a951d822
+2018-07-12 19:58:37 : Custom Secruity Check:
+2018-07-12 19:58:37 : Passed
+2018-07-12 19:58:38 : payment Status update: true
+2018-07-12 19:58:38 : Client Email response: Your email has been sent, thank you!
+2018-07-12 19:58:38 : Admin Email response:Your admin email has been sent, thank you!
+2018-07-12 20:06:41 : PayFast ITN call received
+2018-07-12 20:06:41 : Get posted data
+2018-07-12 20:06:41 : PayFast Data: Array
+(
+    [m_payment_id] => 217
+    [pf_payment_id] => 639726
+    [payment_status] => COMPLETE
+    [item_name] => Vanita Pasta Online Store order Number: 217
+    [item_description] => Vanita Pasta order number: 217
+    [amount_gross] => 165.00
+    [amount_fee] => -3.80
+    [amount_net] => 161.20
+    [custom_str1] => b1e37c705bb157dbf2add656e70cece4bac8fcf64ed424903f0ab73336fc59da
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email_address] => djmwinter@gmail.com
+    [merchant_id] => 10008609
+    [signature] => 7470ca285134b0287e7a8e2a73383bfe
+)
+
+2018-07-12 20:06:41 : Verify security signature
+2018-07-12 20:06:41 : Signature = valid
+2018-07-12 20:06:41 : created_Signature = 1aa32983bdfc3004a777de700b671383
+2018-07-12 20:06:41 : Check order status and update the order
+2018-07-12 20:06:41 : - Complete
+2018-07-12 20:06:41 : Data Test array: Array
+(
+    [merchant_id] => 10008609
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email] => djmwinter@gmail.com
+    [m_payment_id] => 217
+)
+
+2018-07-12 20:06:41 : sent signature: b1e37c705bb157dbf2add656e70cece4bac8fcf64ed424903f0ab73336fc59da
+2018-07-12 20:06:41 : created signature: b1e37c705bb157dbf2add656e70cece4bac8fcf64ed424903f0ab73336fc59da
+2018-07-12 20:06:41 : Custom Secruity Check:
+2018-07-12 20:06:41 : Passed
+2018-07-12 20:06:41 : payment Status update: true
+2018-07-12 20:06:42 : Client Email response: Your email has been sent, thank you!
+2018-07-12 20:06:42 : Admin Email response:Your admin email has been sent, thank you!
+2018-07-14 13:54:46 : PayFast ITN call received
+2018-07-14 13:54:46 : Get posted data
+2018-07-14 13:54:46 : PayFast Data: Array
+(
+    [m_payment_id] => 218
+    [pf_payment_id] => 640402
+    [payment_status] => COMPLETE
+    [item_name] => Vanita Pasta Online Store order Number: 218
+    [item_description] => Vanita Pasta order number: 218
+    [amount_gross] => 55.00
+    [amount_fee] => -2.30
+    [amount_net] => 52.70
+    [custom_str1] => 97421241544e3d77e3fc101d26baec9886513c9d61300fc2778549db37c140fe
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email_address] => djmwinter@gmail.com
+    [merchant_id] => 10008609
+    [signature] => 19e4659939949dfbf218ce3da69a6dec
+)
+
+2018-07-14 13:54:46 : Verify security signature
+2018-07-14 13:54:46 : Signature = valid
+2018-07-14 13:54:46 : created_Signature = d76da49841d7082b545d87a51942e834
+2018-07-14 13:54:46 : Check order status and update the order
+2018-07-14 13:54:46 : - Complete
+2018-07-14 13:54:46 : Data Test array: Array
+(
+    [merchant_id] => 10008609
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email] => djmwinter@gmail.com
+    [m_payment_id] => 218
+)
+
+2018-07-14 13:54:46 : sent signature: 97421241544e3d77e3fc101d26baec9886513c9d61300fc2778549db37c140fe
+2018-07-14 13:54:46 : created signature: 97421241544e3d77e3fc101d26baec9886513c9d61300fc2778549db37c140fe
+2018-07-14 13:54:46 : Custom Secruity Check:
+2018-07-14 13:54:46 : Passed
+2018-07-14 13:54:47 : payment Status update: true
+2018-07-14 13:54:47 : Client Email response: Your email has been sent, thank you!
+2018-07-14 13:54:47 : Admin Email response:Your admin email has been sent, thank you!
+2018-07-16 10:08:00 : PayFast ITN call received
+2018-07-16 10:08:00 : Get posted data
+2018-07-16 10:08:00 : PayFast Data: Array
+(
+    [m_payment_id] => 220
+    [pf_payment_id] => 640771
+    [payment_status] => COMPLETE
+    [item_name] => Vanita Pasta Online Store order Number: 220
+    [item_description] => Vanita Pasta order number: 220
+    [amount_gross] => 145.00
+    [amount_fee] => -3.34
+    [amount_net] => 141.66
+    [custom_str1] => 8f9232cc6c4b8b8dcfc93f2db03627fa4da796d521ccfc97a4735ff146492116
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email_address] => djmwinter@gmail.com
+    [merchant_id] => 10008609
+    [signature] => e5e55ab4a36d57faeb3abea64fb71a00
+)
+
+2018-07-16 10:08:00 : Verify security signature
+2018-07-16 10:08:00 : Signature = valid
+2018-07-16 10:08:00 : created_Signature = 65e3ad08b19e43f5528cef5edadba342
+2018-07-16 10:08:00 : Check order status and update the order
+2018-07-16 10:08:00 : - Complete
+2018-07-16 10:08:00 : Data Test array: Array
+(
+    [merchant_id] => 10008609
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email] => djmwinter@gmail.com
+    [m_payment_id] => 220
+)
+
+2018-07-16 10:08:00 : sent signature: 8f9232cc6c4b8b8dcfc93f2db03627fa4da796d521ccfc97a4735ff146492116
+2018-07-16 10:08:00 : created signature: 8f9232cc6c4b8b8dcfc93f2db03627fa4da796d521ccfc97a4735ff146492116
+2018-07-16 10:08:00 : Custom Secruity Check:
+2018-07-16 10:08:00 : Passed
+2018-07-16 10:08:00 : payment Status update: true
+2018-07-16 10:08:00 : Client Email response: Your email has been sent, thank you!
+2018-07-16 10:08:01 : Admin Email response:Your admin email has been sent, thank you!
+2018-07-18 12:34:49 : PayFast ITN call received
+2018-07-18 12:34:49 : Get posted data
+2018-07-18 12:34:49 : PayFast Data: Array
+(
+    [m_payment_id] => 221
+    [pf_payment_id] => 642290
+    [payment_status] => COMPLETE
+    [item_name] => Vanita Pasta Online Store order Number: 221
+    [item_description] => Vanita Pasta order number: 221
+    [amount_gross] => 112.00
+    [amount_fee] => -2.58
+    [amount_net] => 109.42
+    [custom_str1] => 758f249af6f4851884586cec07bca74c4508f7f6d5d44e0455c1153194e6ed3a
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email_address] => djmwinter@gmail.com
+    [merchant_id] => 10008609
+    [signature] => 2a62de3c97d011696b92d13ff7b33999
+)
+
+2018-07-18 12:34:49 : Verify security signature
+2018-07-18 12:34:49 : Signature = valid
+2018-07-18 12:34:49 : created_Signature = efefb96bc2b0ca7c5e882fc2febde050
+2018-07-18 12:34:49 : Check order status and update the order
+2018-07-18 12:34:49 : - Complete
+2018-07-18 12:34:49 : Data Test array: Array
+(
+    [merchant_id] => 10008609
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email] => djmwinter@gmail.com
+    [m_payment_id] => 221
+)
+
+2018-07-18 12:34:49 : sent signature: 758f249af6f4851884586cec07bca74c4508f7f6d5d44e0455c1153194e6ed3a
+2018-07-18 12:34:49 : created signature: 758f249af6f4851884586cec07bca74c4508f7f6d5d44e0455c1153194e6ed3a
+2018-07-18 12:34:49 : Custom Secruity Check:
+2018-07-18 12:34:49 : Passed
+2018-07-18 12:34:49 : payment Status update: true
+2018-07-18 12:34:50 : Client Email response: Your email has been sent, thank you!
+2018-07-18 12:34:50 : Admin Email response:Your admin email has been sent, thank you!
+2018-07-25 13:23:19 : PayFast ITN call received
+2018-07-25 13:23:19 : Get posted data
+2018-07-25 13:23:19 : PayFast Data: Array
+(
+    [m_payment_id] => 102
+    [pf_payment_id] => 13299652
+    [payment_status] => COMPLETE
+    [item_name] => Vanita Pasta Online Store order Number: 102
+    [item_description] => Vanita Pasta order number: 102
+    [amount_gross] => 34.00
+    [amount_fee] => -3.67
+    [amount_net] => 30.33
+    [custom_str1] => 10027b72c6d0bdcf25341969e84bce5721b1e01b353b1d7ae2338d953004dbc0
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => VIRGINIA
+    [name_last] => LATTANZI
+    [email_address] => virglattanzi@gmail.com
+    [merchant_id] => 12916293
+    [signature] => 2e313ef7e16d83e4638f1c95a102a6e9
+)
+
+2018-07-25 13:23:19 : Verify security signature
+2018-07-25 13:23:19 : Signature = valid
+2018-07-25 13:23:19 : created_Signature = 3c8454ac454448ec9e93c63a9da38c43
+2018-07-25 13:23:19 : Check order status and update the order
+2018-07-25 13:23:19 : - Complete
+2018-07-25 13:23:19 : Data Test array: Array
+(
+    [merchant_id] => 12916293
+    [name_first] => VIRGINIA
+    [name_last] => LATTANZI
+    [email] => virglattanzi@gmail.com
+    [m_payment_id] => 102
+)
+
+2018-07-25 13:23:19 : sent signature: 10027b72c6d0bdcf25341969e84bce5721b1e01b353b1d7ae2338d953004dbc0
+2018-07-25 13:23:19 : created signature: 10027b72c6d0bdcf25341969e84bce5721b1e01b353b1d7ae2338d953004dbc0
+2018-07-25 13:23:19 : Custom Secruity Check:
+2018-07-25 13:23:19 : Passed
+2018-07-25 13:23:19 : payment Status update: true
+2018-07-25 13:23:19 : Client Email response: Your email has been sent, thank you!
+2018-07-25 13:23:20 : Admin Email response:Your admin email has been sent, thank you!
+2018-07-26 11:05:26 : PayFast ITN call received
+2018-07-26 11:05:26 : Get posted data
+2018-07-26 11:05:26 : PayFast Data: Array
+(
+    [m_payment_id] => 222
+    [pf_payment_id] => 646150
+    [payment_status] => COMPLETE
+    [item_name] => Vanita Pasta Online Store order Number: 222
+    [item_description] => Vanita Pasta order number: 222
+    [amount_gross] => 32.00
+    [amount_fee] => -2.30
+    [amount_net] => 29.70
+    [custom_str1] => cdd83b3b1fc62b9c4e81180163a269cec9404537d764be764d43785dc09e03ce
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email_address] => djmwinter@gmail.com
+    [merchant_id] => 10008609
+    [signature] => b06592f6a5c6e6df53c97c078e6747e4
+)
+
+2018-07-26 11:05:26 : Verify security signature
+2018-07-26 11:05:26 : Signature = valid
+2018-07-26 11:05:26 : created_Signature = 8d6a2020c0029fbb8c24e9cee6452f70
+2018-07-26 11:05:26 : Check order status and update the order
+2018-07-26 11:05:26 : - Complete
+2018-07-26 11:05:26 : Data Test array: Array
+(
+    [merchant_id] => 10008609
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email] => djmwinter@gmail.com
+    [m_payment_id] => 222
+)
+
+2018-07-26 11:05:26 : sent signature: cdd83b3b1fc62b9c4e81180163a269cec9404537d764be764d43785dc09e03ce
+2018-07-26 11:05:26 : created signature: cdd83b3b1fc62b9c4e81180163a269cec9404537d764be764d43785dc09e03ce
+2018-07-26 11:05:26 : Custom Secruity Check:
+2018-07-26 11:05:26 : Passed
+2018-07-26 11:05:26 : payment Status update: true
+2018-07-26 11:05:26 : Client Email response: Your email has been sent, thank you!
+2018-07-26 11:05:26 : Admin Email response:Your admin email has been sent, thank you!
+2018-07-26 15:14:00 : PayFast ITN call received
+2018-07-26 15:14:00 : Get posted data
+2018-07-26 15:14:00 : PayFast Data: Array
+(
+    [m_payment_id] => 225
+    [pf_payment_id] => 646499
+    [payment_status] => COMPLETE
+    [item_name] => Vanita Pasta Online Store order Number: 225
+    [item_description] => Vanita Pasta order number: 225
+    [amount_gross] => 32.00
+    [amount_fee] => -2.30
+    [amount_net] => 29.70
+    [custom_str1] => 10b9a4ef493af61f48402862eb5eddd3c7a0858023007f452f2635b469d12832
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email_address] => djmwinter@gmail.com
+    [merchant_id] => 10008609
+    [signature] => bdda3c47b8aa048451b91f419dc2ffa0
+)
+
+2018-07-26 15:14:00 : Verify security signature
+2018-07-26 15:14:00 : Signature = valid
+2018-07-26 15:14:00 : created_Signature = 0c77d29ac330476c2346836a897242ae
+2018-07-26 15:14:00 : Check order status and update the order
+2018-07-26 15:14:00 : - Complete
+2018-07-26 15:14:00 : Data Test array: Array
+(
+    [merchant_id] => 10008609
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email] => djmwinter@gmail.com
+    [m_payment_id] => 225
+)
+
+2018-07-26 15:14:00 : sent signature: 10b9a4ef493af61f48402862eb5eddd3c7a0858023007f452f2635b469d12832
+2018-07-26 15:14:00 : created signature: 10b9a4ef493af61f48402862eb5eddd3c7a0858023007f452f2635b469d12832
+2018-07-26 15:14:00 : Custom Secruity Check:
+2018-07-26 15:14:00 : Passed
+2018-07-26 15:14:00 : payment Status update: true
+2018-07-26 15:14:00 : Client Email response: Your email has been sent, thank you!
+2018-07-26 15:14:00 : Admin Email response:Your admin email has been sent, thank you!
+2018-07-26 15:19:40 : PayFast ITN call received
+2018-07-26 15:19:40 : Get posted data
+2018-07-26 15:19:40 : PayFast Data: Array
+(
+    [m_payment_id] => 226
+    [pf_payment_id] => 646505
+    [payment_status] => COMPLETE
+    [item_name] => Vanita Pasta Online Store order Number: 226
+    [item_description] => Vanita Pasta order number: 226
+    [amount_gross] => 28.00
+    [amount_fee] => -2.30
+    [amount_net] => 25.70
+    [custom_str1] => d218c751d17a552be2cc4f038f5e3a4ebbcdc284d2346c5c6d33ebdcc584e3ca
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email_address] => djmwinter@gmail.com
+    [merchant_id] => 10008609
+    [signature] => 5f156c43fc546c7f3d1d8218a3fb2671
+)
+
+2018-07-26 15:19:40 : Verify security signature
+2018-07-26 15:19:40 : Signature = valid
+2018-07-26 15:19:40 : created_Signature = c753bc8b435d779bcf6b48d96ecdb4ac
+2018-07-26 15:19:40 : Check order status and update the order
+2018-07-26 15:19:40 : - Complete
+2018-07-26 15:19:40 : Data Test array: Array
+(
+    [merchant_id] => 10008609
+    [name_first] => Kyle
+    [name_last] => Winter
+    [email] => djmwinter@gmail.com
+    [m_payment_id] => 226
+)
+
+2018-07-26 15:19:40 : sent signature: d218c751d17a552be2cc4f038f5e3a4ebbcdc284d2346c5c6d33ebdcc584e3ca
+2018-07-26 15:19:40 : created signature: d218c751d17a552be2cc4f038f5e3a4ebbcdc284d2346c5c6d33ebdcc584e3ca
+2018-07-26 15:19:40 : Custom Secruity Check:
+2018-07-26 15:19:40 : Passed
+2018-07-26 15:19:40 : payment Status update: true
+2018-07-26 15:19:40 : Client Email response: Your email has been sent, thank you!
+2018-07-26 15:19:40 : Admin Email response:
